@@ -47,7 +47,7 @@ body{
     font-weight: 800;
     text-align: center;
     margin-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
     border-radius: 5px;
     }
 
@@ -55,6 +55,7 @@ p{
     font-size: 14px;
     margin-bottom: 10px;
     color: hsl(0, 0%, 42%);
+    line-height: 1.5;
 }
     
 .course{
@@ -66,6 +67,10 @@ p{
     display: inline-block;
 }
 
+#avatar{
+    width: 30px;
+    height: 30px;
+}
 .profile{
     display: flex;
     align-items: center;
