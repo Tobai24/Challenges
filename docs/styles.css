@@ -134,21 +134,21 @@ a {
     vertical-align: middle; 
 }
 
-@media only screen and (min-width: 500px) and (max-width: 700px) {
+@media only screen and (min-width: 375px) and (max-width: 700px) {
     .first_review {
         position: absolute;
         margin: 1rem auto; 
-        width: 65%;
-        left: 12rem; 
-        top: 40rem;
+        width: 70%;
+        left: 30%; 
+        top: 45rem;
     }
 
     .second_review {
         position: absolute; 
         margin: 1rem auto;
-        width: 65%; 
-        left: 1.5rem;
-        top: 55rem;
+        width: 70%; 
+        left: 1.5%;
+        top: 60rem;
     }
 
     .intro{
