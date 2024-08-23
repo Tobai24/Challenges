@@ -23,7 +23,7 @@ h1{
 
 .recipe {
     max-width: 600px;
-    margin: 80px auto;
+    margin: 95px auto;
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
@@ -48,9 +48,12 @@ h1{
     font-weight: 600px;
 }
 
+h1{
+    color: hsl(24, 5%, 18%);
+    font-weight: 400;  
+}
 
-
-h3{
+h4{
     color: hsl(332, 51%, 32%);
 }
 
@@ -60,6 +63,10 @@ h3{
     padding: 1.5rem 2rem;
     border-radius: 10px;
     background-color: hsl(330, 100%, 98%);
+}
+
+p{
+    color: hsl(30, 10%, 34%); 
 }
 
 .prep b{
