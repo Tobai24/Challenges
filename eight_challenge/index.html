@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Contact Form</title>
+  </head>
+  <body>
+    <img src="images/contact-form-icon.svg" alt="company logo" />
+    <div class="container">
+      <div class="form">
+        <div class="intro">
+          <h1 class="interest">Interested in our business pricing?</h1>
+          <h2 class="details">
+            Fill out the form to view details and we’ll contact you as soon as
+            possible.
+          </h2>
+        </div>
+        <form action="/submit_form" method="POST">
+          <div class="form-item">
+            <div class="name">
+              <label for="name">Name</label><br />
+              <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Ethan Johnson"
+              /><br />
+            </div>
+            <div class="company_name">
+              <label for="company name">Company Email</label><br />
+              <input
+                type="text"
+                id="company name"
+                name="company name"
+                placeholder="ethan@johnson.com"
+              /><br />
+            </div>
+          </div>
+          <div class="form-item">
+            <div class="compamy_size">
+              <label for="company size">Company size</label><br />
+              <select name="employee">
+                <option value="100">50-100 employees</option>
+                <option value="500">100-500 employee</option>
+                <option value=">500">> 500 employee</option></select
+              ><br />
+            </div>
+            <div class="subject">
+              <label for="subject">Subject</label><br />
+              <select name="subject">
+                <option value="landing">Building Landing pages</option>
+                <option value="contact">Contact page</option>
+                <option value="home">Home page</option></select
+              ><br />
+            </div>
+          </div>
+          <div class="form-item">
+            <div class="one_fraction">
+              <label for="message">Message</label><br />
+              <textarea cols="5" rows="5">50-100 employees</textarea><br />
+            </div>
+          </div>
+          <div class="form-item">
+            <div class="one_fraction">
+              <button type="submit" id="submit-btn">Contact Sales</button>
+            </div>
+          </div>
+          <div class="space"></div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
