@@ -40,6 +40,14 @@ function App() {
               <Route path="photos" element={<HostVandetailsPhoto />} />
             </Route>
           </Route>
+          <Route
+            path="*"
+            element={
+              <>
+                <h1>Sorry the page you are looking for is not found!</h1>
+              </>
+            }
+          />
         </Route>
       </Routes>
     </BrowserRouter>
