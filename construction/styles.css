@@ -468,7 +468,7 @@ body {
   }
   .section_three h1 {
     margin-bottom: 1.5rem;
-    font-size: 2rem;
+    font-size: 1.5rem;
     width: 80%;
   }
   .section_four {
@@ -553,7 +553,7 @@ body {
   }
   .section_seven img {
     height: 400px;
-    max-width: 200px;
+    max-width: 300px;
     border-bottom: 20px solid #0087ff;
     border-top: 20px solid white;
     animation: image-down 3s ease-in-out forwards;
