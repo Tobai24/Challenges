@@ -1,0 +1,21 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+unstructured = "*"
+tiktoken = "*"
+pinecone-client = "*"
+pypdf = "*"
+openai = "*"
+langchain = "*"
+python-dotenv = "*"
+langchain-community = "*"
+langchain-openai = "*"
+pytest = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.12"
